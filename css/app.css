@@ -1,0 +1,59 @@
+div {
+    padding: 2px;
+}
+body {
+    background-image: url(../img/bodybg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bgcentral {
+    background-color: rgb(161, 159, 159, 0.65);
+}
+.borderight {
+    border-right: 1px solid white;
+}
+.borderbotton {
+    border-bottom: 1px solid white;
+}
+.bg-tools {
+    background-color: rgb(161, 176, 176, 0.85);
+}
+.bg-contenido {
+    background-color: rgb(241, 181, 191, 0.85);
+}
+.bordesearch {
+    border: 2px solid  rgb(204, 58, 121);
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.sidenav {
+    background-color:   rgb(161, 176, 176, 0.85);
+    border: 1px solid  rgb(204, 58, 121);
+    text-align: center;
+    border-radius: 3px;
+}
+.sidenacom {
+    background-color:    rgb(241, 181, 191, 0.85);
+    border: 1px solid   rgb(210, 65, 78);
+    border-radius: 3px;
+    margin-top: 2px;
+}
+.imgcom {
+    width: 35px;
+}
+
+@media print,screen and (max-width:920px) {
+    h1 {
+        font-size: 30px;
+
+    }
+    h5 {
+        font-size: 20px;
+    }
+}
+  
